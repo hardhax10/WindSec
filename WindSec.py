@@ -99,7 +99,13 @@ def updates():
         print("\nUnable to Enable Windows Defender Antivirus.")
 
 def services():
-    
+    os.system("net stop DiagTrack")
+    os.system("net stop dmwappushservice")
+    os.system("net stop RemoteRegistry")
+    os.system("net stop RetailDemo")
+    os.system("net stop WinRM")
+    os.system("net stop WMPNetworkSvc")
+
 
 def cortana():
     print("\nTrying to Disable Cortana...")
