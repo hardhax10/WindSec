@@ -30,7 +30,7 @@ perform = {
     "UAC" : 'reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 2 /f',
     "anonymous-access" : 'reg add HKLM\System\CurrentControlSet\Control\Lsa\ /v restrictanonymous /t Reg_DWORD /d 1 /f',
     "anonymous-SAM-enum" : 'reg add HKLM\System\CurrentControlSet\Control\Lsa\ /v restrictanonymoussam /t Reg_DWORD /d 1 /f',
-    
+
 
 }
 blue1 = '\u001b[34m'
